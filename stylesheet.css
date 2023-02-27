@@ -1,0 +1,15 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30%;
+ display: block; 
+ padding: 0%;
+
+}
+
+body { font-family: 'Franklin Gothic Medium';}
+header {background-color: lightblue
+    ;}
+    .bg{background-color: lightblue ;}
+    h2{ background-color: hotpink;}
+    .link{color: orange;}
