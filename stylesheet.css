@@ -4,12 +4,15 @@
     border-radius: 30%;
  display: block; 
  padding: 0%;
-
+ width: 200px;
+ height: 200px;
 }
 
 body { font-family: 'Franklin Gothic Medium';}
 header {background-color: lightblue
-    ;}
+    ;
+text-align: center;
+}
     .bg{background-color: lightblue ;}
     h2{ background-color: hotpink;}
     .link{color: orange;}
