@@ -37,4 +37,8 @@ p {
   margin-left: 40px;
   margin-right: 40px;
 }
-.container {display:flex;}
+.container {
+  display: flex;
+}
+.Nav {text-align: center;
+margin: auto;}
