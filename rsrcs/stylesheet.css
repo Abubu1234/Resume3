@@ -1,29 +1,33 @@
+/* header*/
 .center {
   margin-left: auto;
   margin-right: auto;
-  border-radius: 30%;
+  border-radius: 50%;
   display: block;
   padding: 1%;
   width: 200px;
   height: 200px;
-  border-style: dotted;
-  border-color: aqua;
 }
-
+header {
+  background-color: lightblue;
+  text-align: center;
+  border-style: solid;
+  border-color: hotpink;
+}
+/*body*/
 body {
   font-family: "Franklin Gothic Medium";
   background-color: white;
   margin-left: 20px;
   margin-right: 20px;
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: 10px;
+  border-style: double;
 }
-header {
-  background-color: lightblue;
-  text-align: center;
-}
+
 .bg {
   background-color: lightblue;
 }
@@ -37,17 +41,28 @@ p {
   margin-left: 40px;
   margin-right: 40px;
 }
+/* nav-bar */
 .container {
   display: flex;
-}
-.Nav {
-  text-align: center;
-  margin: auto;
-;
-}
+  position: absolute;
+flex-direction: column;
+top:100px;
+left:100px;}
+.education{margin: 25px;}
+.experience{margin: 25px;}
+.skills{margin: 25px;}
 .edu-exp {
   display: flex;
+  flex-direction:column;
 }
-.Education {
-  border: 2cm;
-}
+/* main content position */
+#education{text-align: center;}
+#experience{text-align: center;}
+#skills{text-align: center;}
+#contact-details{text-align: center;}
+.contact-details{display: flex;
+  position: absolute;
+  flex-direction: column  ;
+top:50px;
+right: 150px;}
+.whole-page{}
