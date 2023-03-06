@@ -13,6 +13,9 @@ header {
   text-align: center;
   border-style: solid;
   border-color: hotpink;
+  display: flex;
+  position: relative;
+  
 }
 /*body*/
 body {
@@ -27,13 +30,6 @@ body {
   border: 10px;
   border-style: double;
 }
-
-.bg {
-  background-color: lightblue;
-}
-h2 {
-  background-color: hotpink;
-}
 .link {
   color: orange;
 }
@@ -44,7 +40,7 @@ p {
 /* nav-bar */
 .container {
   display: flex;
-  position: absolute;
+  position: relative;
 flex-direction: column;
 top:100px;
 left:100px;}
@@ -54,6 +50,7 @@ left:100px;}
 .edu-exp {
   display: flex;
   flex-direction:column;
+  
 }
 /* main content position */
 #education{text-align: center;}
@@ -61,8 +58,12 @@ left:100px;}
 #skills{text-align: center;}
 #contact-details{text-align: center;}
 .contact-details{display: flex;
-  position: absolute;
+  position: sticky;
   flex-direction: column  ;
 top:50px;
 right: 150px;}
-.whole-page{}
+.whole-page{display: flex;
+}
+.Edu{  background-color: hotpink;}
+.Exp{  background-color: hotpink;}
+.Ski{  background-color: hotpink;}
